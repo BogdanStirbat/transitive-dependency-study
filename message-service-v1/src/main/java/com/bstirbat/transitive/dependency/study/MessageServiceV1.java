@@ -1,9 +1,9 @@
 package com.bstirbat.transitive.dependency.study;
 
 
-public class MessageLibrary
+public class MessageServiceV1
 {
     public static String getMessage() {
-        return "message-version-1";
+        return MessageLibrary.getMessage();
     }
 }
